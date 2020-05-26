@@ -1,8 +1,8 @@
-function scealAScriobh() {
-  let sceal = 'An samhradh seo caite, bhí mé ar mo laethanta saoire. Bhí an grian ag scoilteadh na gcloch. Bhí mé cois farraige. Go tobann, thosaigh mé ag troid le mo chara agus thosaigh mo shrón ag cur fola. Chuir an bhean glaoch ar mo thuismitheoirí. Ní dhéanfaidh mé dearmad go deo ar an lá sin. ';
+function scéalAScríobh() {
+  let scéal = 'An samhradh seo caite, bhí mé ar mo laethanta saoire. Bhí an grian ag scoilteadh na gcloch. Bhí mé cois farraige. Go tobann, thosaigh mé ag troid le mo chara agus thosaigh mo shrón ag cur fola. Chuir an bhean glaoch ar mo thuismitheoirí. Ní dhéanfaidh mé dearmad go deo ar an lá sin. ';
   
-  return sceal;
+  return scéal;
 }
 
 
-document.querySelector('main').innerHTML = scealAScriobh();
+document.querySelector('main').innerHTML = scéalAScríobh();

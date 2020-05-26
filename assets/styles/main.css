@@ -8,14 +8,12 @@
 	font-style: normal;
 }
 
-body {
-    font-family: 'UrchloGC'
-}
 
-header {
+header, footer {
     text-align: center;
 }
 
 main {
     text-align: center;
+    font-family: 'UrchloGC'
 }
