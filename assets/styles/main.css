@@ -13,9 +13,12 @@ footer {
   text-align: center;
 }
 
+body {
+  font-family: "UrchloGC";
+}
+
 main {
   text-align: center;
-  font-family: "UrchloGC";
   font-size: 16px;
 }
 main h1 {
