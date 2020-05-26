@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'UrchloGC';
+    src: url('../fonts/UrchloGC.eot'),
+         url('../fonts/urw/UrchloGC.woff') format('woff'), 
+         url('../fonts/UrchloGC.ttf') format('truetype'), 
+         url('../fonts/UrchloGC.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+header {
+    font-size: 40px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    font-family: 'UrchloGC';
+    font-size: 16px;
+
+    h1 {
+        font-size: 30px;
+    }
+}
