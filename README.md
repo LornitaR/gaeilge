@@ -9,17 +9,17 @@
 ### NPM
 * open a terminal and type npm -v
     * if this returns a version, you're good to go
-    * otherwise, get latest version here https://www.npmjs.com/get-npm
+    * otherwise, get latest version [here](https://www.npmjs.com/get-npm)
 
 ### Typescript
 * open a terminal and type tsc -v
     * if this returns a version, you're good to go
-    * otherwise, get the latest version https://www.npmjs.com/package/typescript
+    * otherwise, get the latest version [here](https://www.npmjs.com/package/typescript)
 
 ### Sass
 * open a terminal and type sass --version
     * if this returns a version, you're good to go
-    * otherwise, get latest version here https://sass-lang.com/install
+    * otherwise, get latest version [here](https://sass-lang.com/install)
     * note: if you have issues with an older version, you need to uninstall that version before intalling the latest one
 
 ## Getting Started
