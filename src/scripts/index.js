@@ -20,9 +20,9 @@ function scéalAScríobh() {
 }
 
 function createButton() {
-  return '<button type="button" class="btn btn-success btn-lg" onClick="scéalAScríobh()">Timpiste Nua</button>'
-  + '<br><br><br>'
-  + '<div id="timpiste"></div>';
+  return '<div id="timpiste"></div>'
+  + '<button type="button" class="btn btn-success btn-lg" onClick="scéalAScríobh()">Timpiste Nua</button>'
+  + '<br><br><br>';
 }
 
 // update the HTML here
