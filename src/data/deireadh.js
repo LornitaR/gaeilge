@@ -8,5 +8,6 @@ function deireadh() {
             "en": "It was a great day. "
         }
     ]
-    return deireadh
+
+    return deireadh[Math.floor(Math.random() * deireadh.length)];
 }

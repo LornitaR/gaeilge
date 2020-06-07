@@ -1,13 +1,12 @@
 // use this to generate the story
 function scéalAScríobh() {
   let deireadhData = deireadh();
-  let deireadhUimh = Math.floor(Math.random() * deireadhData.length);
 
   let ceannteideal = '<h1>An Timpiste</h1><br>'
-  let scéal = `<p>${deireadhData[deireadhUimh].ga} </p><br><br><br>`;
+  let scéal = `<p>${deireadhData.ga} </p><br><br><br>`;
 
   let heading = '<h1>The Accident</h1><br>'
-  let story = `<p>${deireadhData[deireadhUimh].en} </p><br><br><br>`;
+  let story = `<p>${deireadhData.en} </p><br><br><br>`;
 
 
   document.getElementById('timpiste').innerHTML = ceannteideal + scéal + heading + story;
