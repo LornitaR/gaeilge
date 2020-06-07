@@ -5,7 +5,7 @@
   font-style: normal;
 }
 header {
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -20,9 +20,10 @@ body {
 main {
   text-align: center;
   font-size: 16px;
+  max-width: 70%;
 }
 main h1 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 /*# sourceMappingURL=main.css.map */
