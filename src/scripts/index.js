@@ -13,7 +13,7 @@ function scéalAScríobh() {
   let scéal = `<p>${cathainData.ga}${fáthData.ga}${aimsirData.ga}${áitData.ga}${timpisteData.ga}${comhshníochtData.ga}${cabhairData.ga}${deireadhData.ga}</p><br><br><br>`;
 
   let heading = '<h1>The Accident</h1><br>'
-  let story = `<p>${cathainData.en}${fáthData.en}${aimsirData.en}${áitData.en}${timpisteData.en}${comhshníochtData.en}${cabhairData.en}${deireadhData.en}</p><br><br><br>`;
+  let story = `<p>${cathainData.en}${fáthData.en}${aimsirData.en}${áitData.en}${timpisteData.en}${comhshníochtData.en}${cabhairData.en}${deireadhData.en}</p><br><br>`;
 
 
   document.getElementById('timpiste').innerHTML = ceannteideal + scéal + heading + story;
