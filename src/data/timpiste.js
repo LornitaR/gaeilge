@@ -6,6 +6,9 @@ function timpiste() {
         }, {
             "ga":"thosaigh mé ag troid le mo chara ",
             "en":"I started fighting with my friend "
+        }, {
+            "ga":"chuaigh mo theach thrí tinne ",
+            "en":"my house caught fire  "
         }
     ]
 
