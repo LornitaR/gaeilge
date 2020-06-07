@@ -1,10 +1,10 @@
+// import { deireadh } from "../data/deireadh"
+
 // use this to generate the story
 function scéalAScríobh() {
+  let data = deireadh();
   let ceannteideal = '<h1>An Timpiste</h1><br>'
-  let scéal = '<p>An samhradh seo caite, bhí mé ar mo laethanta saoire. '
-  + 'Bhí an grian ag scoilteadh na gcloch. Bhí mé cois farraige. Go tobann, '
-  + 'thosaigh mé ag troid le mo chara agus thosaigh mo shrón ag cur fola. '
-  + 'Chuir an bhean glaoch ar mo thuismitheoirí. Ní dhéanfaidh mé dearmad go deo ar an lá sin. </p><br><br><br>';
+  let scéal = `<p>${data[0].ga} </p><br><br><br>`;
 
   let heading = '<h1>The Accident</h1><br>'
   let story = '<p>Last summer, I was on holidays. '
