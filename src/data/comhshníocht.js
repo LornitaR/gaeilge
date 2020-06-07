@@ -12,6 +12,9 @@ function comhshníocht() {
         }, {
             "ga": "agus bhí mé ar an talamh gan aithne gan urlabhra. ",
             "en": "and I was on the ground unconscious. "
+        }, {
+            "ga": "agus fuair mé bás. ",
+            "en": "and I died. "
         }
     ]
 
