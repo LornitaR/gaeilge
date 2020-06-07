@@ -19,5 +19,5 @@
 
 ## Getting Started
 * open index.html in the browser, and it should display
-* when you want to make some changes, run the following commands in the terminal to watch for changes made to your Typescript files and Sass files, so they can be compiled
+* when you want to make some changes, run the following command in the terminal to watch for changes made to your Sass files, so they can be compiled
     * sass --watch assets/styles/main.scss assets/styles/main.css
