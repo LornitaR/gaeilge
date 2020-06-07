@@ -1,5 +1,7 @@
 # Gineadóir Timpistí
 
+## How to Access the Site
+https://lornitar.github.io/gaeilge/
 
 ## Setup Instructions
 * Clone this repo
