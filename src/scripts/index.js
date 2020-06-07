@@ -1,12 +1,19 @@
 // use this to generate the story
 function scéalAScríobh() {
+  let cathainData = cathain();
+  let fáthData = fáth();
+  let aimsirData = aimsir();
+  let áitData = áit();
+  let timpisteData = timpiste();
+  let comhshníochtData = comhshníocht();
+  let cabhairData = cabhair();
   let deireadhData = deireadh();
 
   let ceannteideal = '<h1>An Timpiste</h1><br>'
-  let scéal = `<p>${deireadhData.ga} </p><br><br><br>`;
+  let scéal = `<p>${cathainData.ga}${fáthData.ga}${aimsirData.ga}${áitData.ga}${timpisteData.ga}${comhshníochtData.ga}${cabhairData.ga}${deireadhData.ga}</p><br><br><br>`;
 
   let heading = '<h1>The Accident</h1><br>'
-  let story = `<p>${deireadhData.en} </p><br><br><br>`;
+  let story = `<p>${cathainData.en}${fáthData.en}${aimsirData.ga}${áitData.en}${timpisteData.en}${comhshníochtData.en}${cabhairData.en}${deireadhData.en}</p><br><br><br>`;
 
 
   document.getElementById('timpiste').innerHTML = ceannteideal + scéal + heading + story;

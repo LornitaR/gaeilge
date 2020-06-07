@@ -15,5 +15,5 @@ function aimsir() {
         }
     ]
 
-    return aimsir
+    return aimsir[Math.floor(Math.random() * aimsir.length)];
 }

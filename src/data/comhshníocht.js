@@ -1,5 +1,5 @@
-function comhsníocht() {
-    let comhsníocht = [
+function comhshníocht() {
+    let comhshníocht = [
         {
             "ga": "agus bhris mé mo chos. ",
             "en": "and I broke my leg. "
@@ -12,5 +12,5 @@ function comhsníocht() {
         }
     ]
 
-    return comhsníocht
+    return comhshníocht[Math.floor(Math.random() * comhshníocht.length)];
 }

@@ -18,5 +18,5 @@ function cathain() {
         }
     ]
 
-    return cathain
+    return cathain[Math.floor(Math.random() * cathain.length)];
 }

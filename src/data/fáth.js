@@ -9,5 +9,5 @@ function fáth() {
         }
     ]
 
-    return fáth
+    return fáth[Math.floor(Math.random() * fáth.length)];
 }

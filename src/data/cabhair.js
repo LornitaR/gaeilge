@@ -12,5 +12,5 @@ function cabhair() {
         }
     ]
 
-    return cabhair
+    return cabhair[Math.floor(Math.random() * cabhair.length)];
 }

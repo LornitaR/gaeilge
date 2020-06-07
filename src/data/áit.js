@@ -12,5 +12,5 @@ function áit() {
         }
     ]
 
-    return áit
+    return áit[Math.floor(Math.random() * áit.length)];
 }

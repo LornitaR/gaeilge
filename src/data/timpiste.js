@@ -9,5 +9,5 @@ function timpiste() {
         }
     ]
 
-    return timpiste
+    return timpiste[Math.floor(Math.random() * timpiste.length)];
 }
