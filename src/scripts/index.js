@@ -2,18 +2,18 @@
 function scéalAScríobh() {
   let cathainData = cathain();
   let fáthData = fáth();
-  let aimsirData = aimsir();
   let áitData = áit();
+  let aimsirData = aimsir();
   let timpisteData = timpiste();
   let comhshníochtData = comhshníocht();
   let cabhairData = cabhair();
   let deireadhData = deireadh();
 
   let ceannteideal = '<h1>An Timpiste</h1><br>'
-  let scéal = `<p>${cathainData.ga}${fáthData.ga}${aimsirData.ga}${áitData.ga} Go tobann, ${timpisteData.ga}${comhshníochtData.ga}${cabhairData.ga}${deireadhData.ga}</p><br><br>`;
+  let scéal = `<p>${cathainData.ga}${fáthData.ga}${áitData.ga}${aimsirData.ga} Go tobann, ${timpisteData.ga}${comhshníochtData.ga}${cabhairData.ga}${deireadhData.ga}</p><br><br>`;
 
   let heading = '<h1>The Accident</h1><br>'
-  let story = `<p>${cathainData.en}${fáthData.en}${aimsirData.en}${áitData.en} Suddenly, ${timpisteData.en}${comhshníochtData.en}${cabhairData.en}${deireadhData.en}</p><br><br>`;
+  let story = `<p>${cathainData.en}${fáthData.en}${áitData.en}${aimsirData.en} Suddenly, ${timpisteData.en}${comhshníochtData.en}${cabhairData.en}${deireadhData.en}</p><br><br>`;
 
 
   document.getElementById('timpiste').innerHTML = ceannteideal + scéal + heading + story;

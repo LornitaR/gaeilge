@@ -6,6 +6,12 @@ function deireadh() {
         }, {
             "ga": "Lá iontach a bhí ann. ",
             "en": "It was a great day. "
+        }, {
+            "ga": "Bhí an t-ádh orm.",
+            "en": "I was lucky."
+        }, {
+            "ga": "Bhí an radharc go hiontach.",
+            "en": "The view was wonderful."
         }
     ]
 

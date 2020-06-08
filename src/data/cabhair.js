@@ -1,15 +1,18 @@
 function cabhair() {
     let cabhair = [
         {
-            "ga": "Thug an banaltra X-ghá dom. ",
-            "en": "The nurse gave me an X-ray. "
+            "ga": "Tar éis tamaill, thug an banaltra X-ghá dom. ",
+            "en": "After a while, the nurse gave me an X-ray. "
         }, {
-            "ga": "Chuir fear fhios ar an otharcharr. ",
-            "en": "A man called an ambulance. "
+            "ga": "Tar éis tamaill, chuir fear fhios ar an otharcharr. ",
+            "en": "After a while, a man called an ambulance. "
         }, {
-            "ga": "Chuir an bhean glaoch ar mo thuismitheoirí. ",
-            "en": "The woman called my parents. "
-        }
+            "ga": "Tar éis tamaill, chuir an bhean glaoch ar mo thuismitheoirí. ",
+            "en": "After a while, the woman called my parents. "
+        }, {
+            "ga": "Tháinig an otharcharr ar nós na gaoithe. ",
+            "en": "The ambulance arrived like the wind. "
+        },
     ]
 
     return cabhair[Math.floor(Math.random() * cabhair.length)];
