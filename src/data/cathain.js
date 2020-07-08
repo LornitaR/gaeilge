@@ -13,7 +13,7 @@ function cathain() {
             "ga": "Nuair a bhí mé óg, ",
             "en": "When I was young, "
         }, {
-            "ga": "Fadó, fadó in Éireann, ",
+            "ga": "Fadó, fadó in Éirinn, ",
             "en": "Long ago in Ireland, "
         }, {
             "ga": "Lá amháin, ",
