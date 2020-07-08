@@ -11,7 +11,7 @@ function cabhair() {
             "en": "After a while, the woman called my parents. "
         }, {
             "ga": "Tháinig an otharcharr ar nós na gaoithe. ",
-            "en": "After a while, The ambulance arrived like the wind. "
+            "en": "The ambulance arrived like the wind. "
         },
     ]
 
